@@ -138,6 +138,8 @@ python main.py
 python -m pip install -r requirements-dev.txt
 python -m pytest -v
 ```
-
 Они проверяют JSON-контракт и HTTP-запросы через `httpx.MockTransport`, **не добавляя тестовые обращения в базу**.
 
+## Обратная связь
+
+Если возникли вопросы или проблемы с развертыванием проекта, настройкой Docker Compose или Ollama, можете написать мне в Telegram: [@voronkov44](https://t.me/voronkov44).
